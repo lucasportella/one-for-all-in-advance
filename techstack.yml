@@ -1,0 +1,44 @@
+repo_name: lucasportella/one-for-all-in-advance
+report_id: a46903e06cdae5d3f8948417dc5707a6
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T20:01:41+00:00'
+requested_by: lucasportella
+provider: github
+branch: lfp
+detected_tools_count: 3
+tools:
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/lucasportella/one-for-all-in-advance/blob/lfp/desafio1.sql
+  detection_source: desafio1.sql
+  last_updated_by: lucas
+  last_updated_on: 2021-07-31 18:48:40.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/lucasportella/one-for-all-in-advance
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/lucasportella/one-for-all-in-advance/blob/lfp/.github/workflows/main.yml
+  detection_source: ".github/workflows/main.yml"
+  last_updated_by: lucas
+  last_updated_on: 2021-07-30 23:41:42.000000000 Z
